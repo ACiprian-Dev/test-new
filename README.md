@@ -34,6 +34,8 @@ AnvelopePlus.ro is a high-performance e-commerce platform for tyres and rims, bu
    ```bash
    cp .env.example .env
    docker compose up --build
+   # optional: seed sample data
+   cd backend && npm run seed && cd ..
    ```
 
 2. Access:
@@ -59,6 +61,8 @@ AnvelopePlus.ro is a high-performance e-commerce platform for tyres and rims, bu
 * ✅ JWT auth and protected endpoints
 * ✅ Sitemap + structured data
 * ✅ Ready for Netopia/TBI integration
+* 🆕 REST API (`/products`, `/orders`, `/users`) with TypeORM
+* 🆕 Dynamic Next.js routes for filters and product pages
 
 ## Environments
 
